@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+Hello, {{ user }}!<p>
+
+
+    <form action="sample" method="get">
+
+    Beverage: <input type="text" name="beverage"><p>
+    <p>UPC: <input type="text" name="upc"><p>
+    Comment: <input type="text" name="comment"><p>
+    Rating:<select name="rating" id="rating">
+    <option value="" selected="selected">---------</option>
+    <option value="1">Awful!</option>
+    <option value="2">No thanks!</option>
+    <option value="3">Fine, I guess</option>
+    <option value="4">Tasty delight!</option>
+    <option value="5">Ambrosia of the gods!</option><p>
+    </select>
+    <p>Type:<select name="bev_type" id="bev_type">
+    <option value="" selected="selected">---------</option>
+    <option value="0">Beer</option>
+    <option value="1">Wine</option>
+    <option value="2">Liquor</option>
+    ...
+</select>
+ <input type="submit" value="Submit">
+ </form>
+ <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+
+</body>
+</html>
